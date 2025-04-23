@@ -4,7 +4,7 @@ This is a React application built with Vite.
 
 ## Local Development
 
-```bash
+<!-- ```bash
 # Install dependencies
 npm install
 
@@ -69,4 +69,4 @@ docker push <your-acr-name>.azurecr.io/tedlabs:latest
 
 # Deploy to App Service
 az webapp config container set --name <your-app-name> --resource-group <your-resource-group> --docker-custom-image-name <your-acr-name>.azurecr.io/tedlabs:latest
-```
+``` -->

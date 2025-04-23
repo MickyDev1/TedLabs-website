@@ -1,0 +1,23 @@
+import highlightBg from './HighlightsBg.jfif'
+import highlight01 from './highlights01.jfif'
+import story1 from './stories/story1.jfif'
+import story2 from './stories/story2.jfif'
+import story3 from './stories/story3.jfif'
+import story4 from './stories/story4.jfif'
+import story5 from './stories/story5.jfif'
+import story6 from './stories/story6.jfif'
+import story7 from './stories/story7.jfif'
+import story8 from './stories/story8.jfif'
+import travel from './topics/travel.jfif'
+import food from './topics/food.jfif'
+import space from './topics/space.jfif'
+import lifestyle from './topics/lifestyle.jfif'
+import finances from './topics/finances.jfif'
+import fitness from './topics/fitness.jfif'
+import singleBlogPostImg1 from './singleBlog/singleBlogPostImg1.jfif'
+import singleBlogPostImg2 from './singleBlog/singleBlogPostImg2.jfif'
+import profilePic from './singleBlog/profilePic.jfif'
+import adImg from './singleBlog/adImg.jfif'
+
+
+export {highlightBg, highlight01, story1, story2, story3, story4, story5, story6, story7, story8,fitness, finances,lifestyle,space, food, travel,singleBlogPostImg1, singleBlogPostImg2, profilePic, adImg}

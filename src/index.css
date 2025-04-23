@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --font-roboto-flex: "Roboto Flex", sans-serif;
+  --color-primary: oklch(53.37% 0.2591 289.6);
+  --color-gradient-blue: oklch(56.78% 0.1792 260.37);
+  --color-gradient-purple: oklch(55.32% 0.2361 286.2);
+}
+
+@layer base {
+  * {
+    font-family: "Epilogue", sans-serif;
+  }
+}
+
+/* Hide scrollbar for Chrome, Safari, and Edge */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+.scrollbar-hide {
+  scrollbar-width: none;
+}
+
+.skiptranslate iframe {
+  display: none !important;
+}
+
+/* maquee */
+.marquee-container {
+  overflow: hidden;
+  width: 100%;
+}
+
+.marquee-track {
+  width: 100%;
+  position: relative;
+}
+
+/* Default: wrap and center on small screens */
+.marquee-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+/* Medium and up: marquee scroll */
+@media (min-width: 768px) {
+  .marquee-content {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: start;
+    width: max-content;
+    animation: scroll-left 20s linear infinite;
+  }
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-item {
+  flex-shrink: 0;
+}

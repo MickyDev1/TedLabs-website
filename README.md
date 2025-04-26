@@ -4,8 +4,8 @@ This is a React application built with Vite.
 
 ## Local Development
 
-<!-- ```bash
-# Install dependencies
+```bash
+<!-- # Install dependencies
 npm install
 
 # Start development server
